@@ -104,3 +104,17 @@ body {
   margin: 0.2rem 0;
   font-size: 0.95rem;
 }
+
+.sub-menu ul li a {
+  opacity: 0.8;
+  transition: all 0.5s ease;
+}
+
+.sub-menu ul li a:hover {
+  padding-left: 14px;
+  opacity: 1;
+}
+
+.sub-menu {
+  /* display: none; */
+}
