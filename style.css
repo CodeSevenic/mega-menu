@@ -66,6 +66,7 @@ body {
 
 .navbar-collapse {
   overflow-y: scroll;
+  display: none;
 }
 
 .navbar-nav > li > a {
@@ -86,6 +87,10 @@ body {
   right: 10px;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.navbar-nav > li > a:hover {
+  opacity: 0.7;
 }
 
 .drop-icon:hover {
@@ -116,5 +121,41 @@ body {
 }
 
 .sub-menu {
-  /* display: none; */
+  display: none;
+}
+
+.sub-menu-item{
+  padding-left: 1.2rem;
+}
+
+.sub-menu-item:nth-child(3) {
+  background: #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.sub-menu-item:nth-child(3) h2 {
+  text-transform: capitalize;
+  margin: 1.5rem 0;
+}
+
+.sub-menu-item:nth-child(3) .btn {
+  border: 1px solid #000000;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  background: #000000;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.sub-menu-item:nth-child(4) {
+  width: 50%;
+  margin: 0 auto;
+  padding: 2rem 0;
 }
