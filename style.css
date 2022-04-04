@@ -159,3 +159,49 @@ body {
   margin: 0 auto;
   padding: 2rem 0;
 }
+
+/* Header */
+.header {
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(images/banner-bg.jpg) center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.header h2 {
+  margin: 1rem;
+  font-size: 3rem;
+  font-weight: 900;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
+.header p {
+  margin: 1rem;
+  color: #ffffff;
+  width: 60%;
+  opacity: 0.8;
+  font-weight: 300;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.header button {
+  margin: 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.header button:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
